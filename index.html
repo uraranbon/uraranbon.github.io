@@ -11,20 +11,24 @@
 
 <body>
 
+&nbsp;
+<center><img src="header.png"></center>
+
+<div class="blockA">
 	<h2>S&Mシリーズ</h2>
-		<form>
+		<form name="form1">
 		<ul>
-		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
-		<li><input type="checkbox"　name="check"><label>『すべてがＦになる』</label></li>
-		<li><input type="checkbox"　name="check"><label>『冷たい密室と博士たち』</label></li>
-		<li><input type="checkbox"　name="check"><label>『笑わない数学者』</label></li>
-		<li><input type="checkbox"　name="check"><label>『詩的私的ジャック』</label></li>
-		<li><input type="checkbox"　name="check"><label>『封印再度』</label></li>
-		<li><input type="checkbox"　name="check"><label>『幻惑の死と使途』</label></li>
-		<li><input type="checkbox"　name="check"><label>『夏のレプリカ」</label></li>
-		<li><input type="checkbox"　name="check"><label>『今はもうない』</label></li>
-		<li><input type="checkbox"　name="check"><label>『数奇にして模型』</label></li>
-		<li><input type="checkbox"　name="check"><label>『有限と微小のパン』</label></li>
+		<li><input type="checkbox" onClick="BoxChecked(true);" value="全て選択"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check" value="1"><label>『すべてがＦになる』</label></li>
+		<li><input type="checkbox"　name="check" value="2"><label>『冷たい密室と博士たち』</label></li>
+		<li><input type="checkbox"　name="check" value="3"><label>『笑わない数学者』</label></li>
+		<li><input type="checkbox"　name="check" value="4"><label>『詩的私的ジャック』</label></li>
+		<li><input type="checkbox"　name="check" value="5"><label>『封印再度』</label></li>
+		<li><input type="checkbox"　name="check" value="6"><label>『幻惑の死と使途』</label></li>
+		<li><input type="checkbox"　name="check" value="7"><label>『夏のレプリカ」</label></li>
+		<li><input type="checkbox"　name="check" value="8"><label>『今はもうない』</label></li>
+		<li><input type="checkbox"　name="check" value="9"><label>『数奇にして模型』</label></li>
+		<li><input type="checkbox"　name="check" value="10"><label>『有限と微小のパン』</label></li>
 		</ul>
 		</form>
 
@@ -164,25 +168,191 @@
 		<li><input type="checkbox"　name="check"><label>『ＺＯＫＵＲＡＮＧＥＲ』</label></li>
 		</ul>
 		</form>
+</div>
 
-あと80冊くらい未記入
+<div class="blockB">
+	<h2>シリーズ外の小説</h2>
+	  <form>
+	  <ul>
+	  <li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+	  <li><input type="checkbox"　name="check"><label>『そして二人だけになった』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『墜ちていく僕たち』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『奥様はネットワーカ』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『探偵伯爵と僕』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『どきどきフェノメノン』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『カクレカラクリ』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『少し変わった子あります』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『ゾラ・一撃・さようなら』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『暗闇・キッス・それだけで』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『もえない』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『銀河不動産の超越』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『トーマの心臓』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『喜嶋先生の静かな世界』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『相田家のグッドバイ』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『実験的経験』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『神様が殺してくれる』</label></li>
+	  <li><input type="checkbox"　name="check"><label>『イデアの影』</label></li>
+	  </ul>
+	  </form>
+
+	<h2>小説以外の文章系（エッセィ集など）</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『工作少年の日々』</label></li>
+		<li><input type="checkbox"　name="check"><label>『森博嗣のTOOLBOX』</label></li>
+		<li><input type="checkbox"　name="check"><label>『博士、質問があります！』</label></li>
+		<li><input type="checkbox"　name="check"><label>『DOG&DOLL』</label></li>
+		<li><input type="checkbox"　name="check"><label>『TRUCK&TROLL』</label></li>
+		<li><input type="checkbox"　name="check"><label>『森博嗣のミステリィ工作室』</label></li>
+		<li><input type="checkbox"　name="check"><label>『100人の森博嗣』</label></li>
+		<li><input type="checkbox"　name="check"><label>『人間は考えるＦになる』</label></li>
+		<li><input type="checkbox"　name="check"><label>『アンチ・ハウス』</label></li>
+		</ul>
+		</form>
+
+	<h2>クリームシリーズ</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『つぶやきのクリーム』</label></li>
+		<li><input type="checkbox"　name="check"><label>『つぼやきのテリーヌ』</label></li>
+		<li><input type="checkbox"　name="check"><label>『つぼねのカトリーヌ』</label></li>
+		<li><input type="checkbox"　name="check"><label>『ツンドラモンスーン』</label></li>
+		</ul>
+		</form>
+
+	<h2>100の講義シリーズ</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『常識にとらわれない100の講義』</label></li>
+		<li><input type="checkbox"　name="check"><label>『「思考」を育てる100の講義』</label></li>
+		<li><input type="checkbox"　name="check"><label>『素直に生きる100の講義』</label></li>
+		<li><input type="checkbox"　name="check"><label>『本質を見通す100の講義』</label></li>
+		<li><input type="checkbox"　name="check"><label>『正直に語る100の講義』</label></li>
+		</ul>
+		</form>
+
+	<h2>新書シリーズ</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『臨機応答・変問自在』</label></li>
+		<li><input type="checkbox"　name="check"><label>『臨機応答・変問自在2』</label></li>
+		<li><input type="checkbox"　name="check"><label>『大学の話をしましょうか』</label></li>
+		<li><input type="checkbox"　name="check"><label>『自由をつくる 自在に生きる』</label></li>
+		<li><input type="checkbox"　name="check"><label>『創るセンス 工作の思考』</label></li>
+		<li><input type="checkbox"　name="check"><label>『小説家という職業』</label></li>
+		<li><input type="checkbox"　name="check"><label>『自分探しと楽しさについて』</label></li>
+		<li><input type="checkbox"　name="check"><label>『科学的とはどういう意味か』</label></li>
+		<li><input type="checkbox"　name="check"><label>『人間はいろいろな問題についてどう考えていけば良いのか』</label></li>
+		<li><input type="checkbox"　name="check"><label>『「やりがいのある仕事」という幻想』</label></li>
+		<li><input type="checkbox"　name="check"><label>『孤独の価値』</label></li>
+		<li><input type="checkbox"　name="check"><label>『作家の収支』</label></li>
+		</ul>
+		</form>
+
+	<h2>鉄道庭園シリーズ</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『ミニチュア庭園鉄道』</label></li>
+		<li><input type="checkbox"　name="check"><label>『ミニチュア庭園鉄道2』</label></li>
+		<li><input type="checkbox"　name="check"><label>『ミニチュア庭園鉄道3』</label></li>
+		<li><input type="checkbox"　name="check"><label>『庭園鉄道趣味』</label></li>
+		<li><input type="checkbox"　name="check"><label>『庭煙鉄道趣味』</label></li>
+		</ul>
+		</form>
+
+	<h2>浮遊研究室シリーズ</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『森博嗣の浮遊研究室』</label></li>
+		<li><input type="checkbox"　name="check"><label>『森博嗣の浮遊研究室2』</label></li>
+		<li><input type="checkbox"　name="check"><label>『森博嗣の浮遊研究室3』</label></li>
+		<li><input type="checkbox"　name="check"><label>『森博嗣の浮遊研究室4』</label></li>
+		<li><input type="checkbox"　name="check"><label>『森博嗣の浮遊研究室5』</label></li>
+		</ul>
+		</form>
+
+	<h2>モリログシリーズ</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ1』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ2』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ3』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ4』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ5』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ6』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ7』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ8』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ9』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ10』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ11』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ12』</label></li>
+		<li><input type="checkbox"　name="check"><label>『モリログ・アカデミィ13』</label></li>
+		</ul>
+		</form>
+
+	<h2>日記シリーズ</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『すべてがＥになる』</label></li>
+		<li><input type="checkbox"　name="check"><label>『毎日は笑わない工学博士たち』</label></li>
+		<li><input type="checkbox"　name="check"><label>『封印サイトは詩的私的手記』</label></li>
+		<li><input type="checkbox"　name="check"><label>『ウェブ日記レプリカの使途』</label></li>
+		<li><input type="checkbox"　name="check"><label>『数奇にして有限の良い終末を』</label></li>
+		</ul>
+		</form>
+
+
+	<h2>写真集、詩集、絵本など</h2>
+		<form>
+		<ul>
+		<li><input type="checkbox" id="all"><label><b>全てにチェック（未実装）</b></label></li>
+		<li><input type="checkbox"　name="check"><label>『アイソパラメトリック』</label></li>
+		<li><input type="checkbox"　name="check"><label>『詩集 MATEKI』</label></li>
+		<li><input type="checkbox"　name="check"><label>『君の夢　僕の思考』</label></li>
+		<li><input type="checkbox"　name="check"><label>『議論の余地しかない』</label></li>
+		<li><input type="checkbox"　name="check"><label>『的を射る言葉』</label></li>
+		<li><input type="checkbox"　name="check"><label>『星の玉子さま』</label></li>
+		<li><input type="checkbox"　name="check"><label>『星の玉子さま2』</label></li>
+		<li><input type="checkbox"　name="check"><label>『悪戯王子と猫の物語』</label></li>
+		<li><input type="checkbox"　name="check"><label>『猫の建築家』</label></li>
+		<li><input type="checkbox"　name="check"><label>『失われた猫』</label></li>
+		<li><input type="checkbox"　name="check"><label>『蜥蜴』</label></li>
+		<li><input type="checkbox"　name="check"><label>『蛟竜（こうりょう）』</label></li>
+		<li><input type="checkbox"　name="check"><label>『DAY&NIGHT』</label></li>
+		</ul>
+		</form>
+</div>
+
+
+<div class="blockC">
+		これまでに出された冊数：　冊<br>
+		あなたが読んだ冊数　　：　冊<br>
+		完読するまで残り　　　：　冊
+
 
 		<section class="news">
 			<h2>更新履歴</h2>
 			<table>
 				<tr>
-					<th><time datetime="2016-07-31">2016年7月31日</time></th>
+					<th><time datetime="2016-07-31">2016年07月31日</time></th>
 					<td>公開だけしてみる</td>
 				</tr>
+				<tr>
+					<th><time datetime="2016-08-01">2016年08月01日</time></th>
+					<td>本とヘッダー画像の追加</td>
 				</tr>
 			</table>
 		</section>
-	</div>
-	</div>
+</div>
 
-これまでに出された冊数：　冊
-あなたが読んだ冊数　　：　冊
-完読するまで残り　　　：　冊
 
 </body>
 </html>

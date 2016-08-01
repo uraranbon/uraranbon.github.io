@@ -1,5 +1,22 @@
 
 body {
-	background-color: #fef4f4;
+	background-color: #4c6cb3;
 	font-family: 'Noto Sans Japanese', serif;
+	font-size: 13px;
+}
+
+div.blockA {
+   float: left;
+	 margin : 40px;
+}
+
+div.blockB {
+   float: right;
+ 	 margin : 40px;
+ }
+
+
+div.blockC {
+   clear: both;
+ 	 margin : 40px;
 }
